@@ -1,6 +1,7 @@
 # Express-Swaggerize
+
 The project provides a middleware to integrate swagger-ui based on comments in the javascript code. The idea is to solve the common issues with connecting many package in order to get an automatic process for generating documentation from the comments in the source code.
-It's used with the middleware express. Please visit the [issue tracker][project-issues] to see what issues we are aware of and what features/enhancements we are working on. 
+It's used with the middleware express. Please visit the [issue tracker][project-issues] to see what issues we are aware of and what features/enhancements we are working on.
 
 
 ## Supported Swagger Versions
@@ -20,10 +21,12 @@ npm install express-swaggerize --save
 ## Quick Start
 
 **express-swaggerize** used with express and parse the sources files (for the specification ) in order de define a swagger api.
+
 ```javascript
+
 var swaggerize = require('express-swaggerize');
 
-var app = express()
+var app = express();
 
   var options = {
     // Import swaggerDefinitions
@@ -55,8 +58,8 @@ var app = express()
 
 ```
 
-
 ## Contributing
+
 We welcome pull requests from the community! Feel free to propose new features as PR in order to improve this package.
 
 
