@@ -1,5 +1,5 @@
 # Express-Swaggerize
-The project provides a middleware to integrate swagger-ui based on comments in the javascript code. The idea is to solve the common issues with connecting many package in order to get an automatically process for generating documentation from the comments in the source code.
+The project provides a middleware to integrate swagger-ui based on comments in the javascript code. The idea is to solve the common issues with connecting many package in order to get an automatic process for generating documentation from the comments in the source code.
 It's used with the middleware express. Please visit the [issue tracker][project-issues] to see what issues we are aware of and what features/enhancements we are working on. 
 
 
