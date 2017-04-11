@@ -24,9 +24,9 @@ npm install express-swaggerize --save
 
 ```javascript
 
-var swaggerize = require('express-swaggerize');
+  var swaggerize = require('express-swaggerize');
 
-var app = express();
+  var app = express();
 
   var options = {
     // Import swaggerDefinitions
